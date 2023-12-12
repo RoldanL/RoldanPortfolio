@@ -18,7 +18,7 @@
             <button onclick="scrollToSection('.section2')" class="main-buttons">
                 Profile
             </button>
-            <button onclick="scrollToSection('.section3')" class="main-buttons">
+            <button onclick="scrollToOffset(920)" class="main-buttons">
                 Photo
             </button>
             <button onclick="scrollToSection('.section4')" class="main-buttons">
@@ -240,6 +240,12 @@
         const section = document.querySelector(sectionClass);
         section.scrollIntoView({ behavior: 'smooth' });
     }
+
+    function scrollToOffset(offset) {
+            const currentScroll = window.scrollY;
+            const targetScroll = currentScroll + offset;
+            window.scrollTo({ top: targetScroll, behavior: 'smooth' });
+        }
 </script>
 </body>
 </html>
