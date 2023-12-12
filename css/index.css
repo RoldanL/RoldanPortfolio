@@ -61,8 +61,8 @@ body{
     border: 1px solid #D2B48C;
     margin-right: -40px;
     padding: 10px;
+    color: #D2B48C;;
     border-radius: 10px;
-    color: #D2B48C; 
 }
 
 .introduction2{
@@ -183,18 +183,107 @@ body{
 }
 
 .me-1{
-    position: absolute;
+    position: relative;
     width: 470px;
-    right: 100px;
+    margin-left: 760px;
     top: 110px;
     border-radius: 130px;
     opacity: 0.8;
 }
 
+@media only screen and (max-width: 600px) {
+    .home-text {
+        margin-top: 10%;
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    .hello {
+        font-size: 32px;
+    }
+
+    .introduction {
+        font-size: 24px;
+    }
+
+    .under-introduction {
+        font-size: 14px;
+    }
+
+    .btn-box {
+        width: 80%;
+    }
+
+    .btn-box .btn {
+        width: 100%;
+    }
+
+    .buttons {
+        right: 10px;
+        left: 10px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .main-buttons {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .me-1 {
+        width: 80%;
+        right: 10%;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .home-text {
+        margin-top: 15%;
+    }
+
+    .hello {
+        font-size: 40px;
+    }
+
+    .introduction {
+        font-size: 28px;
+    }
+
+    .under-introduction {
+        font-size: 16px;
+    }
+
+    .btn-box {
+        width: 70%;
+    }
+
+    .btn-box .btn {
+        width: 48%;
+    }
+
+    .buttons {
+        right: 5%;
+        left: 5%;
+    }
+
+    .main-buttons {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .me-1 {
+        width: 50%;
+        right: 10%;
+    }
 
 
+}
 
 
+@media only screen and (min-width: 1025px) {
+
+}
 
 
 
@@ -294,20 +383,59 @@ body{
     opacity: 0.5;
 }
 
+@media (max-width: 1200px) {
+    .main-profile2 {
+        width: 80%; 
+        margin: 100px auto 0 auto; 
+    }
 
+    .profile-pic2 {
+        width: 80%; 
+        left: 10%; 
+    }
 
-
-
-
-.section3 {
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    line-height: 25px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    .profile-pic-text2 {
+        font-size: 30px; 
+        margin: 20% 0 0 10%;
+        width: 80%; 
+        line-height: 40px;
+        letter-spacing: 5px; 
+    }
 }
 
+
+@media (max-width: 768px) {
+    .main-profile2 {
+        width: 90%; 
+        margin: 50px auto 0 auto; 
+    }
+
+    .profile-pic2 {
+        width: 90%; 
+        left: 5%; 
+    }
+
+    .profile-pic-text2 {
+        font-size: 20px; 
+        margin: 15% 0 0 5%; 
+        width: 90%; 
+        line-height: 30px; 
+        letter-spacing: 3px; 
+    }
+}
+
+
+
+
+
+    .section3 {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        line-height: 25px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
 .pic13,
 .pic23,
@@ -318,6 +446,8 @@ body{
    border-color: #D2B48C;
    border-width: 10px;
    border-radius: 35px;
+   width: 100%; 
+   max-width: 400px; 
 }
 
 .pic13:hover,
@@ -448,8 +578,5 @@ body{
     color: #D2B48C;
     margin-top: 30px;
 }
-
-
-
 
 
