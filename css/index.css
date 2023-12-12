@@ -338,11 +338,11 @@ body{
 }
 
 .home-text {
-    animation: fadeIn 2s ease-out;
+    animation: fadeIn 3s ease-out;
 }
 
 .me-1 {
-    animation: slideInFromRight 2s ease-out;
+    animation: slideInFromRight 3s ease-out;
 }
 
 
