@@ -533,10 +533,11 @@ body{
     right: 40px;
 }
 
-.me-13{
+.me-13 {
     position: absolute;
     width: 300px;
-    right: 515px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 1200px;
     border-radius: 100px;
     opacity: 0.8;
