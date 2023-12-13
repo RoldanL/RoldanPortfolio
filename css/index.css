@@ -406,7 +406,8 @@ body{
     background-position: center center;
     position: absolute;
     top: 0px;
-    right: 100px;
+    left: 700px;
+    right: 80px;
     width: 700px;
     opacity: .4;
     border-radius: 80px;
