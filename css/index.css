@@ -400,14 +400,13 @@ body{
 }
 
 .profile-pic2{
+    position: absolute;
     background-image: url(../Image/profile-pic.jpg);
     height: 145vh;
     background-size: cover;
     background-position: center center;
     position: absolute;
-    right: 0;
-    left: 700px;
-    top: 0px;
+    right: 80px;
     width: 700px;
     opacity: .4;
     border-radius: 80px;
