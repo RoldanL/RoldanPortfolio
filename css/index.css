@@ -542,24 +542,28 @@ body{
     opacity: 0.8;
 }
 
-.check3, .check23 {
+.check3{
     display: flex;
     justify-content: center;
     position: absolute;
+    top: 1100px;
+    left: auto;
     color: #D2B48C;
     font-weight: bold;
     font-style: italic;
     font-size: 20px;
 }
 
-.check3 {
-    top: 1100px;
-    left: 50%;
-}
-
-.check23 {
+.check23{
+    display: flex;
+    justify-content: center;
+    position: absolute;
     top: 1010px;
-    left: 50%;
+    left: auto;
+    color: #D2B48C;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
 }
 
 
